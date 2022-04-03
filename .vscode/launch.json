@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "gdb",
+            "gdbpath": "D:/msys64/mingw64/bin/gdb.exe",
+            "request": "launch",
+            "target": "${command:cmake.launchTargetPath}",
+            "cwd": "${workspaceFolder}",
+            "showDevDebugOutput": true,
+            "env": {
+                "PATH":"$PATH;D:/msys64/mingw64/bin/"
+            }
+        }
+    ]
+}

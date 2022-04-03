@@ -5,6 +5,8 @@ project(opengl_test LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+#hacky fix for vscode, will do a real fix later
+set(glfw3_DIR "D:/msys64/mingw64/lib/cmake/glfw3/")
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
 

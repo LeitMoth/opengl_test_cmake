@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Mingw64 GCC MSYS",
+    "compilers": {
+      "C": "D:/msys64/mingw64/bin/gcc.exe",
+      "CXX": "D:/msys64/mingw64/bin/g++.exe"
+    },
+    "preferredGenerator": {
+      "name": "MSYS Makefiles",
+      "platform": "x64"
+    },
+    
+    "environmentVariables": {
+      "CMT_MINGW_PATH": "C:/msys64/mingw64/bin/"
+    },
+    "cmakeSettings": {
+      "CMAKE_MAKE_PROGRAM": "D:/msys64/usr/bin/make.exe",
+      "CMAKE_AR": "D:/msys64/mingw64/bin/ar.exe"
+    }
+  }
+]

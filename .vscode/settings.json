@@ -1,0 +1,5 @@
+{
+  "cmake.cmakePath": "D:/msys64/mingw64/bin/cmake.exe",
+  "cmake.mingwSearchDirs": [ "D:/msys64/mingw64/bin" ],
+  "cmake.generator": "MSYS Makefiles"
+}
